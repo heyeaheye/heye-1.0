@@ -21,9 +21,14 @@
 
 <body>
   <center>
-  <video width="1024" height="720"  controls="controls" muted  autoplay>
-    <source src="视频_0.mp4" type="video/mp4">
-  </video>
+
+      <video width="1024" height="720" controls="controls" muted autoplay="autoplay">
+            <source src="视频_0.mp4" type="video/ogg" />
+            <source src="视频_0.mp4" type="video/mp4" />
+            <source src="视频_0.mp4" type="video/webm" />
+            <object data="视频_0.mp4" width="1024" height="720">
+            <embed width="1024" height="720" src="视频_0.mp4">
+            </object>
 </center>
   <style>
     body{
